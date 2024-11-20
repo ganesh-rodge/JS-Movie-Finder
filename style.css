@@ -1,0 +1,127 @@
+body{
+    background-color: #100c24;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.input-div form{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    padding: 10px;
+    /* border: 2px solid; */
+}
+
+input{
+    width: 70%;
+    height: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    border: 2px solid;
+}
+
+button{
+    width: 25%;
+    max-width: 150px;
+    height: 35px;
+    font-size: 24px;
+    font-weight: 550;
+    background-color: #ff946a;
+    border: none;
+    border-radius: 7px;
+    
+}
+
+button:hover{
+    box-shadow: 5px 5px 3px grey;
+    cursor: pointer;
+}
+
+.movie-main{
+    border: 2px solid ;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.web-info{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.poster{
+    height: 50vh;
+    margin: 20px auto;
+}
+
+.star-img{
+    width: 30px;
+    margin: 0 7px;
+}
+
+.movie-block{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.rating, .imdb, .movie-name{
+    color: white;
+    font-size: 30px;
+}
+
+.star-block{
+    display: flex;
+    justify-content: center;
+}
+
+.movie-name{
+    text-align: center;
+}
+
+.other-info{
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.other-info p{
+    background-color: #aaa6ee;
+    color: black;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.movie-details {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .movie-details p {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .movie-details .key {
+    font-weight: bold;
+    text-align: left;
+    flex: 1;
+  }
+  
+  .movie-details .value {
+    text-align: right;
+    flex: 2;
+    color: #333;
+  }
+  
+.movie-main{
+    color: white;
+    font-size: 25px;
+}
